@@ -1,0 +1,28 @@
+.items-section { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-content: center; 
+    flex-direction: column; 
+    background-color: blue; 
+    img { 
+        margin: 20px; 
+    } 
+} 
+@media screen and (min-width: 600px) { 
+    .items-section { 
+        flex-direction: row; 
+        img { 
+            width: 300px; 
+            height: 300px;
+        } 
+    } 
+} 
+@media screen and (max-width: 601px) { 
+    .items-section { 
+        img { 
+            width: 80vw; 
+            height: 80vw;
+        } 
+    } 
+}
