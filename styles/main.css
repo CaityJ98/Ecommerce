@@ -54,7 +54,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: blue;
+  background-color: black;
 }
 
 .items-section img {
